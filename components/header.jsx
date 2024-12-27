@@ -5,8 +5,10 @@ import Link from "next/link";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 
 import Image from "next/image";
+import { checkUser } from "@/lib/checkuser";
 
 const Header = async () => {
+  await checkUser();
 
 
   return (
