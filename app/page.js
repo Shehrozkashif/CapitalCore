@@ -1,9 +1,16 @@
 
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
+import { Divide } from "lucide-react";
+
+export default function Home(){
 
 
-
-export default function Home() {
-  return <Button variant="destructive" > hello guys</Button> ;
+  return ( <div className="mt-40 ">
+  
+  <Button variant="destructive" >hello</Button>
+  
+  </div>
+    
+  
+  );
 }
