@@ -19,10 +19,15 @@ CapitalCore is a modern finance management web application designed to help user
 
 - **Frontend**: [Next.js](https://nextjs.org/) (React Framework)
 - **Backend**: [Supabase](https://supabase.com/) (Database and Authentication)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Utility-First CSS Framework)
+- **ORM**: [Prisma](https://www.prisma.io/) (Database ORM)
+- **Event-Driven Workflows**: [Inngest](https://www.inngest.com/) (Event-Driven Architecture)
 - **Authentication**: [Clerk](https://clerk.dev/) (User Management)
 - **APIs**:
   - Gemini API (Cryptocurrency)
   - Resend API (Email Notifications)
+- **UI Components**: [Shadcn UI](https://shadcn.dev/) (Accessible and Composable UI Components)
+- **Key Management**: ArcJet for secure API key handling.
 
 ---
 
@@ -96,7 +101,7 @@ CapitalCore can be deployed on platforms like Vercel, Netlify, or any other host
 ## API Reference
 
 ### Gemini API
-Used for fetching cryptocurrency data.
+Used for fetching cryptocurrency data. 
 - **Endpoint**: `https://api.gemini.com/v1`
 - **Authentication**: Requires `GEMINI_API_KEY`.
 
@@ -136,8 +141,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [Next.js Documentation](https://nextjs.org/docs)
 - [Supabase Documentation](https://supabase.com/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Prisma Documentation](https://www.prisma.io/docs)
+- [Inngest Documentation](https://www.inngest.com/docs)
 - [Clerk Documentation](https://clerk.dev/docs)
+- [Shadcn UI Documentation](https://shadcn.dev/docs)
 - [Gemini API Documentation](https://docs.gemini.com)
 - [Resend API Documentation](https://resend.io/docs)
-
 
